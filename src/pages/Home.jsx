@@ -33,7 +33,7 @@ const Home = () => {
 
     <>
     <div
-   className='container' style={{paddingTop:"3rem", display:"flex",padding:"2rem", justifyContent:"center", alignItems:"center"}}
+   className='container' style={{paddingTop:"3rem",color:"grey", display:"flex",padding:"2rem", justifyContent:"center", alignItems:"center"}}
   >
     <MDBRow className='row-cols-1 row-cols-md-3 g-3 mt-5' >
       {posts.map((post) => 
